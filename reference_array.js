@@ -1,3 +1,5 @@
+//reference value=object and array
+
 const orders = [
     { id: 1, item: "smartphone", quantity: 3 },
     { id: 1, item: "A.C", quantity: 3 },

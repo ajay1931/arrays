@@ -14,4 +14,11 @@ function Extracton() {
     let extractitems = totalItems.splice(1, 3);
     console.log(extractitems);
 }
-Extracton()
+// Extracton()
+
+// spread operater
+function toCombine(){
+    let totalItems =[...shopping_cart,"mint",{name:"ajay",age:24},...additional_cart];
+    console.log(totalItems);
+}
+toCombine()
