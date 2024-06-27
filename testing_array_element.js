@@ -1,4 +1,4 @@
-// Testing array elements by true or false
+// Testing array elements by true or false by using premitive values
 
 let age = [15, 47, 73, 19, 21]
 let age1 = [14, 46, 73, 19, 22]
@@ -11,7 +11,7 @@ function isAdults() {
     });
     console.log(adult);
 }
-isAdults()
+// isAdults()
 
 function isAdults1() {
     let adult = age1.some((value, index, array) => {
@@ -19,7 +19,7 @@ function isAdults1() {
     });
     console.log(adult);
 }
-isAdults1()
+// isAdults1()
 
 // Testing is it odd or even
 
@@ -30,7 +30,7 @@ function isodd() {
     });
     console.log(odd);
 }
-isodd()
+// isodd()
 
 // Some method
 function iseven() {
@@ -39,4 +39,33 @@ function iseven() {
     });
     console.log(even);
 }
-iseven()
+// iseven()
+
+// Testing an elements by using Reference type
+
+let items = [
+    { id: 1, name: "mobiles", isDeliverable: true },
+    { id: 2, name: "A.C", isDeliverable: true },
+    { id: 3, name: "T.V", isDeliverable: false },
+    { id: 4, name: "Speakers", isDeliverable: true },
+    { id: 5, name: "Oven", isDeliverable: true },
+];
+
+// Every method
+function isDeliver() {
+    let deliver = items.every((value) => {
+        return value.isDeliverable == true;
+        // return value.isDeliverable = true;
+    });
+    console.log(deliver);
+}
+isDeliver()
+
+// Some method
+function isDeliver1() {
+    let deliver = items.some((value) => {
+        return value.isDeliverable = true;
+    });
+    console.log(deliver);
+}
+isDeliver1()
