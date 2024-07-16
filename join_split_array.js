@@ -7,7 +7,7 @@ function joinArray(){
     let routine = dailyRoutine.join("'s ");
     console.log(routine);
 }
-// joinArray()
+joinArray()
 
 // Spliting of arrays
 function splitArray(){
@@ -26,4 +26,4 @@ function splitJoin(){
     let finalslug = postSlug.join("_")
     console.log(finalslug);
 }
-splitJoin()
+// splitJoin()
