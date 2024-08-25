@@ -6,7 +6,7 @@ function addingDonation() {
     });
     console.log(totalDonation);
 }
-// addingDonation()
+addingDonation()  // Result=>270
 
 // Reference method
 let shoppingCart = [
@@ -23,7 +23,14 @@ function addShopingCart() {
     }, 0);  // Initial value (0 + 45...)
     console.log(addCost);
 }
-// addShopingCart()
+addShopingCart()
+// OUTPUT=>
+//   0
+//   45
+//   70
+//   90
+//   140
+//   150
 
 
 function addShopingCart1() {
@@ -34,3 +41,10 @@ function addShopingCart1() {
     console.log(addCost);
 }
 addShopingCart1()
+// OUTPUT=>
+//     0
+//     10
+//     60
+//     80
+//     105
+//     150
