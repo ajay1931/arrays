@@ -8,7 +8,7 @@ function isAdults() {
     });
     console.log("Adults:", adult);
 }
-// isAdults() 
+isAdults() //Adults: [ 34, 24, 56, 33 ]
 
 function iseven() {
     let even = age.filter(value => {
@@ -16,7 +16,7 @@ function iseven() {
     });
     console.log("Even numbers:", even);
 }
-// iseven()
+iseven()  // Result=>Even numbers: [ 34, 24, 14, 56 ]
 
 // Reference type
 
@@ -35,3 +35,8 @@ function lessPrice() {
     console.log(price);
 }
 lessPrice()
+// OUTPUT =>
+//     [
+//         { id: 1, name: 'Android Mobiles', cost: '9000' },
+//         { id: 1, name: 'Windows Mobiles', cost: '11000' }
+//     ]
