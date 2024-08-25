@@ -13,7 +13,7 @@ function findPrice() {
     })
     console.log(price);
 }
-findPrice()
+findPrice()  //  Result=>{ id: 1, name: 'Android Mobiles', cost: 9000 }
 
 // FindIndex method
 function findPrice1() {
@@ -22,4 +22,4 @@ function findPrice1() {
     })
     console.log(price);
 }
-findPrice1()
+findPrice1()  //  Result=>0
