@@ -16,5 +16,5 @@ let result1 = orders.findIndex(function(order){
     return order.item ==="shoes"
 })
 
-console.log(result);
-console.log(result1);
+console.log(result);  //  { id: 2, item: 'watch', quantity: 9 }
+console.log(result1);  //  4
