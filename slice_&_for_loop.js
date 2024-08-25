@@ -5,7 +5,8 @@ function sliceMethod() {
     let result = array.slice(2, 5)
     console.log(result);
 }
-// sliceMethod()
+sliceMethod()
+// OUTPUT =>[ 3, 4, 5 ]
 
 // for loop method
 
@@ -14,15 +15,30 @@ function loopMethod() {
         console.log(i);
     }
 }
-// loopMethod()
+loopMethod()
+// OUTPUT =>
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
 
 
 let tempArray = [];
 for (var i = 0; i < array.length; i++) {
     tempArray[i] = array[i];
-    // console.log(tempArray);
+    console.log(tempArray);
+    // OUTPUT =>
+    // [ 1 ]
+    // [ 1, 2 ]
+    // [ 1, 2, 3 ]
+    // [ 1, 2, 3, 4 ]
+    // [ 1, 2, 3, 4, 5 ]
+    // [ 1, 2, 3, 4, 5, 6 ]
 }
 
 // Spread operater
-    tempArray = [...array];
-    console.log(tempArray);
+tempArray = [...array];
+console.log(tempArray);  //[ 1, 2, 3, 4, 5, 6 ]
